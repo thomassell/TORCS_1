@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item
+        android:id="@+id/pro"
+        android:title="Pro" >
+        <menu>
+            <item android:id="@+id/pro_1"
+                  android:title="Pro 1 (Saturday)" />
+            <item android:id="@+id/pro_2"
+                  android:title="Pro 2 (Sunday)" />
+        </menu>       
+    </item>
+    <item
+        android:id="@+id/a"
+        android:title="A" >
+        <menu>
+            <item android:id="@+id/vet_35_a"
+                android:title="Vet 35+ A"/>
+            <item android:id="@+id/open_a"
+                  android:title="Open A" />
+            <item android:id="@+id/two_fifty_a"
+                  android:title="250F A" />
+            <item android:id="@+id/sport_a"
+                  android:title="Sport 13-29 A" />
+            <item android:id="@+id/thirty_a"
+                  android:title="Vet 30+ A" />
+            <item android:id="@+id/fourty_a"
+                  android:title="Master 40+ A" />
+            <item android:id="@+id/fifty_a"
+                  android:title="Senior 50+ A" />
+            <item android:id="@+id/sixty_a"
+                android:title="65cc A" />
+            <item android:id="@+id/eighty_a"
+                android:title="85cc A" />
+            <item android:id="@+id/wom_a"
+                  android:title="Women A" />
+        </menu>
+	</item>
+	<item
+        android:id="@+id/b"
+        android:title="B" >
+        <menu>
+            <item android:id="@+id/open_b"
+                  android:title="Open B" />
+            <item android:id="@+id/two_fifty_b"
+                  android:title="250F B" />
+            <item android:id="@+id/sport_b"
+                  android:title="Sport 13-29 B" />
+            <item android:id="@+id/thirty_b"
+                  android:title="Vet 30+ B" />
+            <item android:id="@+id/fourty_b"
+                  android:title="Master 40+ B" />
+            <item android:id="@+id/fifty_b"
+                  android:title="Senior 50+ B" />
+            <item android:id="@+id/wom_b"
+                  android:title="Women B" />
+        </menu>
+	</item>
+	<item
+        android:id="@+id/c"
+        android:title="C" >
+        <menu>
+            <item android:id="@+id/open_c"
+                  android:title="Open C" />
+            <item android:id="@+id/two_fifty_c"
+                  android:title="250F C" />
+            <item android:id="@+id/sport_c"
+                  android:title="Sport 13-29 C" />
+            <item android:id="@+id/thirty_c"
+                  android:title="Vet 30+ C" />
+            <item android:id="@+id/fourty_c"
+                  android:title="Master 40+ C" />
+            <item android:id="@+id/fifty_c"
+                  android:title="Senior 50+ C" />
+            <item android:id="@+id/sixty_c"
+                android:title="65cc C" />
+            <item android:id="@+id/eighty_c"
+                android:title="85cc C" />
+            <item android:id="@+id/wom_c"
+                  android:title="Women C" />
+        </menu>
+	</item>
+    <item
+        android:id="@+id/d"
+        android:title="D" >
+        <menu>
+            <item android:id="@+id/open_d"
+                android:title="Open D (Saturday)" />
+            <item android:id="@+id/sport_d"
+                android:title="Sportman D (Sunday)" />
+        </menu>
+    </item>
+	<item
+        android:id="@+id/open"
+        android:title="Open" >
+        <menu>
+            <item android:id="@+id/jr_beg"
+                  android:title="Jr. Beginner" />
+            <item android:id="@+id/fifty_cc_open"
+                  android:title="50cc Open" />
+            <item android:id="@+id/fifty_cc_mini"
+                android:title="50cc Mini" />
+            <item android:id="@+id/sixty_cc_mini"
+                android:title="65cc Mini" />
+            <item android:id="@+id/supermini"
+                  android:title="Supermini" />
+            <item android:id="@+id/wom_open"
+                  android:title="Women Open" />
+            <item android:id="@+id/double_decade"
+                  android:title="Double Decade" />
+            <item android:id="@+id/sixty_plus"
+                  android:title="Super Senior 60+" />
+            <item android:id="@+id/sixty_five_plus"
+                android:title="Super Senior 65+" />
+        </menu>
+	</item>
+    <item
+        android:id="@+id/sxs"
+        android:title="SXS" >
+        <menu>
+            <item android:id="@+id/sxs_turbo"
+                android:title="SXS Turbo" />
+            <item android:id="@+id/sxs_non_turbo"
+                android:title="SXS Non Turbo" />
+            <item android:id="@+id/sxs_800"
+                android:title="SXS 800" />
+            <item android:id="@+id/sxs_women"
+                android:title="SXS Women" />
+        </menu>
+    </item>
+	
+</menu>

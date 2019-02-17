@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.thomas_sell.torcs2"
+    android:versionCode="26"
+    android:versionName="2.4.0"
+    android:name="com.thomas_sell.torcs2.App">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <application
+        android:name="com.thomas_sell.torcs2.App"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.thomas_sell.torcs2.SplashActivity"
+            android:theme="@style/SplashTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.thomas_sell.torcs2.MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.thomas_sell.torcs2.Display_flyers"
+            android:label="@string/title_activity_display_flyers"
+            android:parentActivityName="com.thomas_sell.torcs2.MainActivity"
+            android:screenOrientation="portrait" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.thomas_sell.torcs2.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.thomas_sell.torcs2.Race_Results"
+            android:label="@string/title_activity_race__results"
+            android:parentActivityName="com.thomas_sell.torcs2.MainActivity"
+            android:screenOrientation="portrait" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.thomas_sell.torcs2.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.thomas_sell.torcs2.Points_Standings"
+            android:label="@string/title_activity_points__standings"
+            android:parentActivityName="com.thomas_sell.torcs2.MainActivity"
+            android:screenOrientation="portrait" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.thomas_sell.torcs2.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.thomas_sell.torcs2.Pro_classes"
+            android:label="@string/title_activity_pro_classes"
+            android:parentActivityName="com.thomas_sell.torcs2.Points_Standings"
+            android:screenOrientation="portrait" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.thomas_sell.torcs2.Points_Standings" />
+        </activity>
+        <activity
+            android:name="com.thomas_sell.torcs2.A_classes"
+            android:label="@string/title_activity_a_classes"
+            android:parentActivityName="com.thomas_sell.torcs2.Points_Standings"
+            android:screenOrientation="portrait" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.thomas_sell.torcs2.Points_Standings" />
+        </activity>
+        <activity
+            android:name="com.thomas_sell.torcs2.B_classes"
+            android:label="@string/title_activity_b_classes"
+            android:parentActivityName="com.thomas_sell.torcs2.Points_Standings"
+            android:screenOrientation="portrait" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.thomas_sell.torcs2.Points_Standings" />
+        </activity>
+        <activity
+            android:name="com.thomas_sell.torcs2.C_classes"
+            android:label="@string/title_activity_c_classes"
+            android:parentActivityName="com.thomas_sell.torcs2.Points_Standings"
+            android:screenOrientation="portrait" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.thomas_sell.torcs2.Points_Standings" />
+        </activity>
+        <activity
+            android:name="com.thomas_sell.torcs2.D_classes"
+            android:label="@string/title_activity_d_classes"
+            android:parentActivityName="com.thomas_sell.torcs2.Points_Standings"
+            android:screenOrientation="portrait" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.thomas_sell.torcs2.Points_Standings" />
+        </activity>
+        <activity
+            android:name="com.thomas_sell.torcs2.Open_classes"
+            android:label="@string/title_activity_open_classes"
+            android:parentActivityName="com.thomas_sell.torcs2.Points_Standings"
+            android:screenOrientation="portrait" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.thomas_sell.torcs2.Points_Standings" />
+        </activity>
+        <activity
+            android:name="com.thomas_sell.torcs2.Sxs_classes"
+            android:label="@string/title_activity_sxs_classes"
+            android:parentActivityName="com.thomas_sell.torcs2.Points_Standings"
+            android:screenOrientation="portrait" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.thomas_sell.torcs2.Points_Standings" />
+        </activity>
+        <activity
+            android:name="com.thomas_sell.torcs2.Display_flyers_window"
+            android:parentActivityName="com.thomas_sell.torcs2.Display_flyers" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.thomas_sell.torcs2.Display_flyers" />
+        </activity>
+        <activity
+            android:name="com.thomas_sell.torcs2.Points_Standings_Pro_window"
+            android:parentActivityName="com.thomas_sell.torcs2.Pro_classes" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.thomas_sell.torcs2.Pro_classes" />
+        </activity>
+        <activity
+            android:name="com.thomas_sell.torcs2.Points_Standings_A_window"
+            android:parentActivityName="com.thomas_sell.torcs2.A_classes" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.thomas_sell.torcs2.A_classes" />
+        </activity>
+        <activity
+            android:name="com.thomas_sell.torcs2.Points_Standings_B_window"
+            android:parentActivityName="com.thomas_sell.torcs2.B_classes" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.thomas_sell.torcs2.B_classes" />
+        </activity>
+        <activity
+            android:name="com.thomas_sell.torcs2.Points_Standings_C_window"
+            android:parentActivityName="com.thomas_sell.torcs2.C_classes" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.thomas_sell.torcs2.C_classes" />
+        </activity>
+        <activity
+            android:name="com.thomas_sell.torcs2.Points_Standings_D_window"
+            android:parentActivityName="com.thomas_sell.torcs2.D_classes" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.thomas_sell.torcs2.D_classes" />
+        </activity>
+        <activity
+            android:name="com.thomas_sell.torcs2.Points_Standings_Open_window"
+            android:parentActivityName="com.thomas_sell.torcs2.Open_classes" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.thomas_sell.torcs2.Open_classes" />
+        </activity>
+        <activity
+            android:name="com.thomas_sell.torcs2.Points_Standings_Sxs_window"
+            android:parentActivityName="com.thomas_sell.torcs2.Sxs_classes" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.thomas_sell.torcs2.Sxs_classes" />
+        </activity>
+        <activity
+            android:name="com.thomas_sell.torcs2.Race_Results_window"
+            android:label="@string/title_activity_race__results_window"
+            android:parentActivityName="com.thomas_sell.torcs2.Race_Results" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.thomas_sell.torcs2.Race_Results" />
+        </activity>
+        <activity
+            android:name="com.thomas_sell.torcs2.About_app"
+            android:label="@string/title_activity_about_app"
+            android:parentActivityName="com.thomas_sell.torcs2.MainActivity"
+            android:screenOrientation="portrait" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.thomas_sell.torcs2.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.thomas_sell.torcs2.Sponsors"
+            android:label="@string/title_activity_sponsors"
+            android:parentActivityName="com.thomas_sell.torcs2.MainActivity"
+            android:screenOrientation="portrait" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.thomas_sell.torcs2.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.thomas_sell.torcs2.Pictures"
+            android:parentActivityName="com.thomas_sell.torcs2.MainActivity"
+            android:screenOrientation="portrait" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.thomas_sell.torcs2.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.thomas_sell.torcs2.Admin_login"
+            android:parentActivityName="com.thomas_sell.torcs2.MainActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateVisible">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.thomas_sell.torcs2.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.thomas_sell.torcs2.Admin_push"
+            android:parentActivityName="com.thomas_sell.torcs2.MainActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateVisible">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.thomas_sell.torcs2.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.thomas_sell.torcs2.Messages"
+            android:parentActivityName="com.thomas_sell.torcs2.MainActivity"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.thomas_sell.torcs2.MainActivity" />
+        </activity>
+
+        <!-- firebase messaging -->
+        <service
+            android:name=".MyFirebaseMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT"/>
+            </intent-filter>
+        </service>
+        <service
+            android:name=".MyFirebaseInstanceIDService">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT"/>
+            </intent-filter>
+        </service>
+
+    </application>
+</manifest>

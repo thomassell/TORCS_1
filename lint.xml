@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <lint>
+        <!-- list of issues to configure -->
+        <!-- Ignore the ObsoleteLayoutParam issue in the specified files -->
+        <issue id="HardcodedText">
+            <ignore path="res/layout/*.xml" />
+            <ignore path="res/menu/*.xml" />
+        </issue>
+        <issue id="ContentDescription">
+            <ignore path="res/layout/fragment_sponsors.xml" />
+        </issue>
+        <issue id="SetTextI18n">
+            <ignore path="java/com/thomas_sell/torcs/About_app.java" />
+            <ignore path="java/com/thomas_sell/torcs/Messages.java" />
+        </issue>
+</lint>

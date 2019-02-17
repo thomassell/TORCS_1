@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.thomas_sell.torcs.MainActivity" >
+
+    <item
+        android:id="@+id/about_app"
+        android:title="About the app"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/admin"
+        android:title="Admin"
+        app:showAsAction="never"/>
+
+</menu>

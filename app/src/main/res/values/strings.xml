@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">TORCS</string>
+    <string name="logo">TORCS logo</string>
+    <string name="Flyers">Event Flyers</string>
+    <string name="Results">Race Results</string>
+    <string name="Points">Points Standings</string>
+    <string name="TON">TON Forums</string>
+    <string name="Round">Round #</string>
+
+    <color name="white">#ffffff</color>
+    <color name="blue">#000099</color>
+    <color name="black">#000000</color>
+    <color name="red">#ff0000</color>
+    <color name="yellow">#ffff00</color>
+    <color name="grey">#a0a0a0</color>
+    <color name="green">#15C138</color>
+    <color name="dark_grey">#3D3C3A</color>
+
+    <string name="title_activity_display_flyers">Display_flyers</string>
+    <string name="title_activity_race__results">Race Results</string>
+    <string name="title_activity_points__standings">Points Standings</string>
+    <string name="title_activity_pro_classes">Pro classes</string>
+    <string name="title_activity_a_classes">A classes</string>
+    <string name="title_activity_b_classes">B classes</string>
+    <string name="title_activity_c_classes">C classes</string>
+    <string name="title_activity_d_classes">C classes</string>
+    <string name="title_activity_open_classes">Open classes</string>
+    <string name="title_activity_sxs_classes">SXS classes</string>
+    <string name="title_activity_race__results_window">Race Results</string>
+    <string name="title_activity_about_app">TORCS</string>
+    <string name="title_activity_sponsors">Sponsors</string>
+
+</resources>
