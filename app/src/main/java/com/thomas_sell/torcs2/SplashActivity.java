@@ -2,7 +2,7 @@ package com.thomas_sell.torcs2;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatActivity;
 
 /**
  * Created by Thomas on 5/27/2016.
