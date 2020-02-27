@@ -7,7 +7,6 @@ import android.content.Intent;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
 import android.os.Bundle;
-import androidx.fragment.app.FragmentActivity;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
@@ -16,6 +15,8 @@ import android.widget.PopupMenu;
 
 import java.util.List;
 import java.util.Vector;
+
+import androidx.fragment.app.FragmentActivity;
 
 public class Race_Results extends FragmentActivity implements PopupMenu.OnMenuItemClickListener {
 
@@ -282,6 +283,9 @@ public class Race_Results extends FragmentActivity implements PopupMenu.OnMenuIt
 	        case R.id.fifty_a:
 	        	InvokeActivity(58);
 	        	return true;
+			case R.id.sixty_plus_a:
+				InvokeActivity(267);
+				return true;
 			case R.id.sixty_a:
 				InvokeActivity(261);
 				return true;
@@ -332,6 +336,9 @@ public class Race_Results extends FragmentActivity implements PopupMenu.OnMenuIt
 	        case R.id.fifty_c:
 	        	InvokeActivity(207);
 	            return true;
+			case R.id.sixty_plus_c:
+				InvokeActivity(268);
+				return true;
 			case R.id.sixty_c:
 				InvokeActivity(262);
 				return true;
@@ -370,13 +377,13 @@ public class Race_Results extends FragmentActivity implements PopupMenu.OnMenuIt
 	        case R.id.double_decade:
 	        	InvokeActivity(211);
 	            return true;
-	        case R.id.sixty_plus:
-	        	InvokeActivity(59);
-	            return true;
-			case R.id.sixty_five_plus:
+	        case R.id.sixty_five_plus:
 				InvokeActivity(265);
 				return true;
 
+			case R.id.sxs_pro:
+				InvokeActivity(269);
+				return true;
 			case R.id.sxs_turbo:
 				InvokeActivity(257);
 				return true;

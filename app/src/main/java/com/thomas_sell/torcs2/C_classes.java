@@ -37,6 +37,9 @@ public class C_classes extends Activity {
 			case R.id.fifty_c :
 				InvokeActivity(207);
 				break;
+			case R.id.sixty_plus_c:
+				InvokeActivity(268);
+				break;
 			case R.id.sixty_c :
 				InvokeActivity(262);
 				break;

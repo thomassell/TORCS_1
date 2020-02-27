@@ -20,6 +20,9 @@ public class Sxs_classes extends Activity {
 	{
 		switch(v.getId())
 		{
+			case R.id.sxs_pro :
+				InvokeActivity(269);
+				break;
 			case R.id.sxs_turbo :
 				InvokeActivity(257);
 				break;

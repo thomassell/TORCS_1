@@ -40,6 +40,9 @@ public class A_classes extends Activity {
 			case R.id.fifty_a :
 				InvokeActivity(58);
 				break;
+			case R.id.sixty_plus_a:
+				InvokeActivity(267);
+				break;
 			case R.id.sixty_a :
 				InvokeActivity(261);
 				break;

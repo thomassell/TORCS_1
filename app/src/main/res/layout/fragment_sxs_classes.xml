@@ -11,13 +11,27 @@
 	    android:paddingTop="@dimen/activity_vertical_margin"
 	    android:background="@color/grey" >
 
+		<Button
+			android:id="@+id/sxs_pro"
+			style="?android:attr/buttonStyleSmall"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_alignParentTop="true"
+			android:layout_centerHorizontal="true"
+			android:layout_marginTop="15dp"
+			android:background="@drawable/rounded_corners"
+			android:text="SXS Pro"
+			android:textColor="@color/yellow"
+			android:textStyle="bold"
+			android:width="200dp"
+			android:onClick="onClick" />
     	<Button
     	    android:id="@+id/sxs_turbo"
     	    style="?android:attr/buttonStyleSmall"
     	    android:layout_width="wrap_content"
     	    android:layout_height="wrap_content"
-    	    android:layout_alignParentTop="true"
     	    android:layout_centerHorizontal="true"
+			android:layout_below="@+id/sxs_pro"
     	    android:layout_marginTop="15dp"
     	    android:background="@drawable/rounded_corners_red"
     	    android:text="SXS Turbo"

@@ -40,9 +40,6 @@ public class Open_classes extends Activity {
 			case R.id.double_decade :
 				InvokeActivity(211);
 				break;
-			case R.id.sixty_plus :
-				InvokeActivity(59);
-				break;
 			case R.id.sixty_five_plus :
 				InvokeActivity(265);
 				break;

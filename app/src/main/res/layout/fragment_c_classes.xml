@@ -95,12 +95,26 @@
     	    android:width="200dp"
     	    android:onClick="onClick" />
 		<Button
-			android:id="@+id/sixty_c"
+			android:id="@+id/sixty_plus_c"
 			style="?android:attr/buttonStyleSmall"
 			android:layout_width="wrap_content"
 			android:layout_height="wrap_content"
 			android:layout_centerHorizontal="true"
 			android:layout_below="@+id/fifty_c"
+			android:layout_marginTop="15dp"
+			android:background="@drawable/rounded_corners_black"
+			android:text="Super Senior 60+ C"
+			android:textColor="@color/white"
+			android:textStyle="bold"
+			android:width="200dp"
+			android:onClick="onClick" />
+		<Button
+			android:id="@+id/sixty_c"
+			style="?android:attr/buttonStyleSmall"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_centerHorizontal="true"
+			android:layout_below="@+id/sixty_plus_c"
 			android:layout_marginTop="15dp"
 			android:background="@drawable/rounded_corners_black"
 			android:textStyle="bold"

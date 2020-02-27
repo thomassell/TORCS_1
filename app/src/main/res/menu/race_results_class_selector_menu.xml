@@ -28,6 +28,8 @@
                   android:title="Master 40+ A" />
             <item android:id="@+id/fifty_a"
                   android:title="Senior 50+ A" />
+            <item android:id="@+id/sixty_plus_a"
+                android:title="Super Senior 60+ A" />
             <item android:id="@+id/sixty_a"
                 android:title="65cc A" />
             <item android:id="@+id/eighty_a"
@@ -72,6 +74,8 @@
                   android:title="Master 40+ C" />
             <item android:id="@+id/fifty_c"
                   android:title="Senior 50+ C" />
+            <item android:id="@+id/sixty_plus_c"
+                android:title="Super Senior 60+ C" />
             <item android:id="@+id/sixty_c"
                 android:title="65cc C" />
             <item android:id="@+id/eighty_c"
@@ -108,8 +112,6 @@
                   android:title="Women Open" />
             <item android:id="@+id/double_decade"
                   android:title="Double Decade" />
-            <item android:id="@+id/sixty_plus"
-                  android:title="Super Senior 60+" />
             <item android:id="@+id/sixty_five_plus"
                 android:title="Super Senior 65+" />
         </menu>
@@ -118,6 +120,8 @@
         android:id="@+id/sxs"
         android:title="SXS" >
         <menu>
+            <item android:id="@+id/sxs_pro"
+                android:title="SXS Pro" />
             <item android:id="@+id/sxs_turbo"
                 android:title="SXS Turbo" />
             <item android:id="@+id/sxs_non_turbo"
