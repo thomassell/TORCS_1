@@ -26,7 +26,7 @@ public class MainActivity extends Activity {
 		setContentView(R.layout.fragment_main);
 
         FirebaseMessaging.getInstance().subscribeToTopic("torcs");
-        FirebaseInstanceId.getInstance().getToken();
+        FirebaseInstanceId.getInstance().getInstanceId();
 	}
 	public void onClick(View v) 
 	{
